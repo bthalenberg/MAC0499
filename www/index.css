@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:200,600');
+
+.titulo {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p, ol, ul, a {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 200;
+}
+
+.tfs {
+    display: block;
+    margin-top: 10px;
+}
+
+.item {
+    text-transform: uppercase;
+}
+
+.item a {
+    color: #000000;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: 0.5s;
+    padding: 10px;
+    height: 2.25em;
+    line-height: 2.25em;
+}
+
+.resumo {
+    text-align: justify;
+    text-justify: inter-word;
+    display: block;
+    border-radius: 2px;
+}
+
+.aluno, .supervisora, .progresso, .cronograma {
+    display: block;
+    border-radius: 2px;
+}
+
+.aluno, .supervisora, .progresso, .cronograma {
+    margin-bottom: 20px;
+}
+
+.resumo {
+    margin-bottom:50px;
+}
+
+.degrade {
+    color: #ffffff;
+    background: #22313F;
+    background: linear-gradient(to bottom right, #22313F,#34495E);
+}
+
+.aluno a {
+    color: #ffffff;
+}
+
+.supervisora a {
+    color: #ffffff;
+}
+
+.footer {
+  left: 20;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #22313F;
+  display: block;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+div {
+    padding: 10px 15px;
+}
+
+p, a, li {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .header, .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    h1, h2, h3 {
+        font-size: 2rem;
+    }
+
+    .resumo {
+        margin-bottom: 20px;
+    }
+
+    .tfs, h2 {
+        text-align: center;
+    }
+    
+    .item {
+        text-align: center;
+    }
+
+    .item a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:960px) {
+    .resumo {
+        margin-right: 20px;        
+    }
+
+    .resumo, .tfs {
+        float: left;
+    }
+
+    .tfs {
+        width: 50%;
+    }
+
+    .menu {
+        float: right;
+        width: 45%;
+    }
+    
+    .resumo, .aluno, .supervisora, .progresso, .cronograma {
+        width: 45%;        
+    }
+
+    .aluno, .supervisora, .progresso, .cronograma {
+        float: left;
+        clear: right;
+    }
+
+    .content {
+        clear: both;
+    }
+
+    .header, .content {
+        width: 80%;
+        margin: auto;
+    }
+
+    .item {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .item a:hover {
+        color: #ffffff;
+        background: #22313F;
+        background: linear-gradient(to bottom right, #22313F,#34495E);
+    }
+} 
